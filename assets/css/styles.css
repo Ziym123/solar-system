@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/assets/images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /* height: 100vh; */
+    max-width: 768px;
+    margin: auto;
+    text-align: justify;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5rem;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.textTitle {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+img {
+    display: block;
+    border-radius: 10px;
+    margin: 2rem auto;
+}
+
+.mainContainer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 25px;
+}
+
+.contentMenu1 {
+    background-color: #000226;
+    padding: 1px 2rem 1px;
+}
+
+.contentMenu2 {
+    border: 5px solid #000226;
+    color: white;
+    font-size: 23px;
+    padding-left: 3rem;
+}
+
+hr {
+    border-width: 2px;
+}
+
+a:link {
+    text-decoration: none;
+    color: mediumpurple;
+}
+
+a:visited {
+    color: mediumpurple;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: thistle;
+}
+
+.source {
+    color: white;
+    font-size: large;
+}
+
+.back2top {
+    font-size: xxx-large;
+    font-family: fantasy;
+    text-align: center;
+}
